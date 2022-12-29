@@ -116,10 +116,25 @@ main {
   width: 50%;
 }
 
+#galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#galeria img {
+  width: 30%;
+}
+
+.secciones {
+  display: flex;
+  justify-content: center;
+}
+
 #final {
   display: flex;
   justify-content: center;
-  margin: 10% 0% 0% 7%;
+  margin: 0%;
 }
 
 #final h2 {
@@ -198,8 +213,24 @@ main {
     width: 100%;
   }
 
+  #galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #galeria img {
+    width: 50%;
+  }
+
+  .secciones {
+    display: flex;
+    justify-content: center;
+  }
+
   #final h2 {
     text-align: center;
     font-size: 3rem;
+    margin: 0%;
   }
 }
